@@ -6,6 +6,7 @@ import json from "@rollup/plugin-json";
 import terser from "rollup-plugin-terser";
 import builtins from "rollup-plugin-node-builtins";
 import globals from "rollup-plugin-node-globals";
+import copy from "rollup-plugin-copy";
 
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -26,6 +27,9 @@ export default [
       }),
       builtins(),
       globals(),
+      copy({
+        targets: [{ src: "public/index.html", dest: "dist" }],
+      }),
       !isProduction &&
         serve({
           open: false,
