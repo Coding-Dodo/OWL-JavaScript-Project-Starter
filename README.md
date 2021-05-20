@@ -53,7 +53,7 @@ It is expected to create components in one file, following this convention:
 import { Component, useState, tags } from "@odoo/owl";
 
 const APP_TEMPLATE = tags.xml/*xml*/ `
-<div t-name="App" class="bg-white shadow m-8 p-2 rounded cursor-pointer" t-on-click="update">
+<div t-name="App" class="" t-on-click="update">
   Hello <t t-esc="state.text"/>
 </div>
 `;
