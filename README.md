@@ -2,6 +2,8 @@
 
 This repo is an example on how to start a real project with the odoo owl framework.
 
+[![Deploy on Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Coding-Dodo/OWL-JavaScript-Project-Starter)
+
 ## Features
 
 - [OWL](https://github.com/odoo/owl)
