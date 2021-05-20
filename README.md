@@ -52,16 +52,17 @@ It is expected to create components in one file, following this convention:
 ```js
 import { Component, useState, tags } from "@odoo/owl";
 
+const APP_TEMPLATE = tags.xml/*xml*/ `
+<div t-name="App" class="bg-white shadow m-8 p-2 rounded cursor-pointer" t-on-click="update">
+  Hello <t t-esc="state.text"/>
+</div>
+`;
+
 export class App extends Component {
+  static template = APP_TEMPLATE;
   state = useState({ text: "Owl" });
   update() {
     this.state.text = this.state.text === "Owl" ? "World" : "Owl";
   }
 }
-
-App.template = tags.xml/*xml*/ `
-    <div t-name="App" class="bg-white shadow m-8 p-2 rounded cursor-pointer" t-on-click="update">
-      Hello <t t-esc="state.text"/>
-    </div>
-`;
 ```
