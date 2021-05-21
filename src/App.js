@@ -1,4 +1,4 @@
-import { Component, useState, tags } from "@odoo/owl";
+import { Component, tags } from "@odoo/owl";
 import { MyComponent } from "./components/MyComponent";
 
 const APP_TEMPLATE = tags.xml/*xml*/ `
@@ -10,8 +10,4 @@ const APP_TEMPLATE = tags.xml/*xml*/ `
 export class App extends Component {
   static template = APP_TEMPLATE;
   static components = { MyComponent };
-  state = useState({ text: "Owl" });
-  update() {
-    this.state.text = this.state.text === "Owl" ? "World" : "Owl";
-  }
 }
