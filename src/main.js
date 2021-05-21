@@ -1,8 +1,8 @@
 import { App } from "./App";
-import { utils } from "@odoo/owl";
+import { utils, mount } from "@odoo/owl";
 
-(async () => {
-  const app = new App();
-  await utils.whenReady();
-  await app.mount(document.body);
-})();
+async function setup() {
+  mount(App, { target: document.body });
+}
+
+utils.whenReady(setup);
