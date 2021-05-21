@@ -1,4 +1,4 @@
-import { App } from "../../src/components/App";
+import { App } from "../../src/App";
 import { makeTestFixture, nextTick, click } from "../helpers";
 import { mount } from "@odoo/owl";
 
@@ -17,7 +17,7 @@ describe("App", () => {
     await mount(App, { target: fixture });
     expect(fixture.innerHTML).toContain("Hello Owl");
 
-    click(fixture, "div");
+    click(fixture, "span");
     await nextTick();
     expect(fixture.innerHTML).toContain("Hello World");
   });
