@@ -1,7 +1,10 @@
 import { App } from "./App";
-import { utils, mount } from "@odoo/owl";
+import { utils, mount, config as owlConfig } from "@odoo/owl";
 
 async function setup() {
+  if (process.env.OWL_ENV === "dev") {
+    owlConfig.mode = "dev";
+  }
   mount(App, { target: document.body });
 }
 
