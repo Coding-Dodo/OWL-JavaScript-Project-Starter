@@ -10,6 +10,7 @@
   "author": "Coding Dodo",
   "license": "MIT",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/preset-env": "^7.14.2",
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "@rollup/plugin-commonjs": "^19.0.0",
