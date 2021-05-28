@@ -1,6 +1,8 @@
 # OWL Javascript Project Starter
 
-This repo is an example on how to start a real project with the odoo owl framework.
+This repo is an example on how to start a real project with the Odoo OWL framework.
+
+Thanks to @SimonGenin for it's [original Starter Project for OWL](https://github.com/SimonGenin/OWL-JavaScript-Project-Starter)
 
 [![Deploy on Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Coding-Dodo/OWL-JavaScript-Project-Starter)
 
@@ -9,7 +11,8 @@ This repo is an example on how to start a real project with the odoo owl framewo
 - [OWL](https://github.com/odoo/owl)
 - Javascript
 - Livereload
-- Rollup
+- Rollup.js
+- Tests with Jest
 
 ## Installation
 
