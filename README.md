@@ -69,3 +69,9 @@ export class App extends Component {
   }
 }
 ```
+
+## See also
+
+If your are searching for the a project starter with Tailwind and PostCSS:
+
+[https://github.com/Coding-Dodo/OWL-JavaScript-Tailwind-Project-Starter](https://github.com/Coding-Dodo/OWL-JavaScript-Tailwind-Project-Starter)
