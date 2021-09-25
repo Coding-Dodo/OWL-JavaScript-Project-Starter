@@ -8,11 +8,11 @@ Thanks to @SimonGenin for it's [original Starter Project for OWL](https://github
 
 ## Features
 
-- [OWL](https://github.com/odoo/owl)
+- [OWL](https://github.com/odoo/owl) v1.4.5
 - Javascript
 - Livereload
-- Rollup.js
-- Tests with Jest
+- Rollup.js v2.57
+- Tests with Jest v27
 
 ## Installation
 
