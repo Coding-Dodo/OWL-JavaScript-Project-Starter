@@ -1,4 +1,9 @@
-# OWL Javascript Project Starter
+# OWL (v1) Javascript Project Starter
+
+> **Warning**
+> This project uses OWL **version 1**, OWL v2 is out (used in Odoo 16) and is the **preferred** version of the framework!
+> Use this starter project only if you are following the Tutorial on https://codingdodo.com, if not please
+> **prefer this repository [OWL2-JavaScript-Project-Starter](https://github.com/Coding-Dodo/OWL2-JavaScript-Project-Starter)**
 
 This repo is an example on how to start a real project with the Odoo OWL framework.
 
